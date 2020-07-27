@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# dool alias
+alias dool='~/.dool/dool'
+alias dool-all='dool -tlcpimdrgsn --tcp --udp'
+alias dool-cpu='dool -tlcr --top-cpu-adv --top-cputime'
+alias dool-mem='dool -tlcm --top-mem --top-oom'
+alias dool-io='dool -tlcdr --top-io-adv --top-bio-adv'
